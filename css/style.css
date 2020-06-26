@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&family=Parisienne&family=Roboto&display=swap');
+
+
+body {
+  width: 99%;
+  height: 100%;
+  font-family: 'MuseoModerno', cursive;
+  padding: 10px;
+}
+
+.container-fluid{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+h4{
+    text-align: center;
+}
+#header{
+    font: 2.0em;
+    font-family: 'Parisienne', cursive;
+    font-weight: 800;
+}
+
+.first_row{
+    border: 1px solid black;
+    font-size: 0.8em;
+}
+.div2{
+    border: 1px solid black;
+}
+#div_header{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#div_header h4{
+    font-weight: 600;
+    padding: 20px;
+}
+.categories{
+    padding: 40px;
+    border: 1px solid black;
+}
+.categories > div{
+    padding: 20px;
+}
+
+div {
+		/* border: 0.5px solid black; */
+	}
+
+.one,
+.two{
+height: auto;
+width: auto;
+}
+
+.left{
+    width: 25%;
+    min-width: 350px;
+    height: auto;
+    min-height: 450px;
+    float: left;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.middle{
+   width: 50%;
+    min-width: 350px;
+    height: auto;
+    min-height: 450px;
+    float: left;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.right{
+    width: 25%;
+    min-width: 350px;
+    height: auto;
+    min-height: 450px;
+    float: left;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.lefter{
+	width: 25%;
+    min-width: 350px;
+    height: auto;
+    min-height: 450px;
+    float: left;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.righter{
+	width: 75%;
+    min-width: 350px;
+    height: auto;
+    min-height: 450px;
+    float: left;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
